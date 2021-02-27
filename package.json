@@ -1,0 +1,29 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node src/app.js",
+    "start": "electron ./src/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DulceOne/pirat-desktop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DulceOne/pirat-desktop/issues"
+  },
+  "homepage": "https://github.com/DulceOne/pirat-desktop#readme",
+  "dependencies": {
+    "electron": "^11.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/node": "^7.13.0"
+  }
+}
